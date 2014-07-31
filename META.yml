@@ -20,7 +20,9 @@ no_index:
     - inc
 requires:
   Carp: 0
-  LWP::Simple: 0
+  HTTP::Message: 0
+  LWP::Protocol::https: 0
+  LWP::UserAgent: 0
   XML::Simple: 0
   perl: 5.010000
-version: 0.01
+version: 0.02
